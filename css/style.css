@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: lightblue;
+}
+h3{
+    position: absolute;
+    bottom: 4rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.3rem 0.5rem;
+
+
+}
+h3 span{
+    background: rgba(255, 255, 255, 0.5);
+    padding: 0.3rem 0.5rem;
+    border-radius: 12px;
+}
+p{
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.3rem 0.5rem;
+
+}
+p span{
+    background: rgba(255, 255, 255, 0.5);
+    padding: 0.3rem 0.5rem;
+    border-radius: 12px;
+
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.left,.right{
+    
+    top: 50%;
+    font-size: 5em;
+    
+}
+.left a ,.right a{
+    text-decoration: none;
+    padding: 20px;
+    color: rgba(78, 75, 75, 0.671);
+}
+.left a:hover ,.right a:hover{
+    text-decoration: none;
+    padding: 20px;
+    color:rgba(255, 255, 255, 0.5)
+}
+.left{
+    position: absolute;
+    left: 0;
+    color: black;
+}
+.right{
+position: absolute;
+right: 0;
+color: black;
+}
+.carusel{
+    position: relative;
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 0 77px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 30px black;
+    border: 5px solid rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    background: white;
+    max-width: 800px;
+    margin: 40px auto;
+    position: relative;
+}
+.circles{
+position: absolute;
+top: 5%;
+left: 33%;
+font-size: 4rem;
+}
+.circles a{
+    top: 0;
+    text-decoration: none;
+    padding: 20px;
+    color: rgba(78, 75, 75, 0.671);
+}
+.circles a:hover{
+    text-decoration: none;
+    padding: 20px;
+    color: rgba(124, 120, 120, 0.671);
+}
+.carusel .circles .current a{
+    color: whitesmoke;
+}
